@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Todo</title>
+
+</head>
+
+<body>
+    <div class="scrollbar-hide"></div>
+    <div class="container">
+        <h1 class="header">Daily Todo</h1>
+        <div class="todo-menu">
+            <article class="active">
+                <div class="card">
+                    <h2 class="todo-title">Lorem ipsum dolor</h2>
+
+                    <input type="text" class="title-input" placeholder="todo title"/>
+                    <textarea class="desc-input" placeholder="todo description"></textarea>
+                </div>
+
+                <div class="footer-btns">
+                    <button class="btn" id="cancel">
+                        <img src="./icons/cancel-icon.png" alt="cancel btn" />
+                    </button>
+                    <button class="btn" id="save">
+                        <img src="./icons/save-icon.png" alt="save btn" />
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <footer class="disabled">
+            <button class="btn" id="add">
+                <img src="./icons/add-icon.png" alt="add btn" />
+            </button>
+        </footer>
+    </div>
+    <!-- js link -->
+    <script src="main.js"></script>
+</body>
+
+</html>
