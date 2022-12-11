@@ -87,7 +87,6 @@ saveBtn.addEventListener('click', () => {
                 body: desc
             })
         }).then(res => {
-            console.log(res);
             todoMenu.appendChild(createTodoCard(title, desc))
             todoMenu.scrollTo(0, todoMenu.scrollHeight);
             titleInput.value = ""
